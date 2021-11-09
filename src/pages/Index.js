@@ -19,7 +19,8 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p>2021.09.30&nbsp;&nbsp;&nbsp;Gave an invited talk about Claim Provenance at Fackbook AI.</p>
+      <p>2021.11.05&nbsp;&nbsp;&nbsp;Defended my thesis proposal.</p>
+      <p>2021.09.30&nbsp;&nbsp;&nbsp;Gave an invited talk about Claim Provenance at Facebook AI.</p>
       <p>2021.08.27&nbsp;&nbsp;&nbsp;Finished my summer internship at Google AI.</p>
       <p>2021.06.01&nbsp;&nbsp;&nbsp;A new <a href="https://aclanthology.org/2021.acl-long.458.pdf">paper</a> about claim provenance accepted by ACL 2021.
       </p>
