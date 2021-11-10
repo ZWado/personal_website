@@ -6,7 +6,7 @@ const positions = [
     daterange: 'Jun. 2021 - Aug. 2021',
     points: [
       'Mentored by Natasha Noy and Omar Benjelloun',
-      'Worked on extracting variables from research papers for a given dataset.',
+      'Worked on extracting studied variables from research papers for a given dataset.',
     ],
   },
   {
@@ -16,7 +16,7 @@ const positions = [
     daterange: 'Jun. 2020 - Aug. 2021',
     points: [
       'Mentored by Sujay Jauhar, Julia Kiseleva, and Ryen White.',
-      'Worked on understanding complex tasks from multi-source text by developing novel text generation techniques.',
+      'Worked on understanding complex tasks based on multi-source information by developing novel query-focused text generation techniques.',
     ],
   },
   {
@@ -36,7 +36,7 @@ const positions = [
     daterange: 'June 2018 - Aug. 2018',
     points: [
       'Mentored by Yannis Katsis, Marina Danilevsky, and Yunyao Li.',
-      'Worked on SystemT, a declarative IE system.',
+      'Worked on improving SystemT, a declarative IE system.',
     ],
   },
 ];
