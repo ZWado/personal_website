@@ -1,0 +1,9 @@
+{
+  "name": "yizhang.io",
+  "private": true,
+  "description": "Personal website of Yi Zhang — plain HTML/CSS/JS, no build step",
+  "scripts": {
+    "start": "python3 -m http.server 8000 -d site",
+    "deploy": "npx gh-pages -d site --dotfiles"
+  }
+}
