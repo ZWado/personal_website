@@ -31,17 +31,10 @@ body {
   font-size: 1.0625rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  /* depth glows + faint ledger ruling — the page as a log */
+  /* depth glows */
   background-image:
     radial-gradient(1100px 700px at 72% -12%, rgba(58, 175, 155, 0.22), transparent 60%),
-    radial-gradient(900px 600px at -10% 30%, rgba(40, 125, 110, 0.16), transparent 55%),
-    repeating-linear-gradient(
-      to bottom,
-      transparent 0,
-      transparent 47px,
-      rgba(150, 215, 200, 0.04) 47px,
-      rgba(150, 215, 200, 0.04) 48px
-    );
+    radial-gradient(900px 600px at -10% 30%, rgba(40, 125, 110, 0.16), transparent 55%);
 }
 
 ::selection { background: var(--accent); color: var(--bg); }
