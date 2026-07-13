@@ -4,13 +4,13 @@
    ============================================================ */
 
 :root {
-  --bg: #1a1540;
-  --bg-raised: #241e56;
-  --line: rgba(180, 170, 235, 0.2);
-  --line-strong: rgba(180, 170, 235, 0.38);
-  --text: #eeebf8;
-  --muted: #ada6cf;
-  --faint: #776fa5;
+  --bg: #0f2b2a;
+  --bg-raised: #173d3b;
+  --line: rgba(150, 215, 200, 0.2);
+  --line-strong: rgba(150, 215, 200, 0.38);
+  --text: #eaf5f1;
+  --muted: #a3c4ba;
+  --faint: #6d938a;
   --accent: #f2a93b;
   --accent-soft: rgba(242, 169, 59, 0.16);
   --display: "Archivo", "Helvetica Neue", sans-serif;
@@ -33,14 +33,14 @@ body {
   -webkit-font-smoothing: antialiased;
   /* depth glows + faint ledger ruling — the page as a log */
   background-image:
-    radial-gradient(1100px 700px at 72% -12%, rgba(130, 100, 235, 0.22), transparent 60%),
-    radial-gradient(900px 600px at -10% 30%, rgba(90, 65, 190, 0.16), transparent 55%),
+    radial-gradient(1100px 700px at 72% -12%, rgba(58, 175, 155, 0.22), transparent 60%),
+    radial-gradient(900px 600px at -10% 30%, rgba(40, 125, 110, 0.16), transparent 55%),
     repeating-linear-gradient(
       to bottom,
       transparent 0,
       transparent 47px,
-      rgba(180, 170, 235, 0.04) 47px,
-      rgba(180, 170, 235, 0.04) 48px
+      rgba(150, 215, 200, 0.04) 47px,
+      rgba(150, 215, 200, 0.04) 48px
     );
 }
 
