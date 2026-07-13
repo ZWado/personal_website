@@ -4,15 +4,15 @@
    ============================================================ */
 
 :root {
-  --bg: #0a0e16;
-  --bg-raised: #101724;
-  --line: rgba(151, 168, 199, 0.16);
-  --line-strong: rgba(151, 168, 199, 0.3);
-  --text: #e8ebf2;
-  --muted: #93a0b6;
-  --faint: #5d6a80;
+  --bg: #0c1e1e;
+  --bg-raised: #122c2b;
+  --line: rgba(140, 200, 188, 0.16);
+  --line-strong: rgba(140, 200, 188, 0.3);
+  --text: #e8f2ee;
+  --muted: #98b6ad;
+  --faint: #5f8078;
   --accent: #f2a93b;
-  --accent-soft: rgba(242, 169, 59, 0.14);
+  --accent-soft: rgba(242, 169, 59, 0.16);
   --display: "Archivo", "Helvetica Neue", sans-serif;
   --body: "IBM Plex Sans", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -31,14 +31,17 @@ body {
   font-size: 1.0625rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  /* faint ledger ruling — the page as a log */
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent 47px,
-    rgba(151, 168, 199, 0.025) 47px,
-    rgba(151, 168, 199, 0.025) 48px
-  );
+  /* depth glows + faint ledger ruling — the page as a log */
+  background-image:
+    radial-gradient(1100px 700px at 72% -12%, rgba(45, 140, 125, 0.14), transparent 60%),
+    radial-gradient(900px 600px at -10% 30%, rgba(30, 95, 85, 0.10), transparent 55%),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 47px,
+      rgba(140, 200, 188, 0.03) 47px,
+      rgba(140, 200, 188, 0.03) 48px
+    );
 }
 
 ::selection { background: var(--accent); color: var(--bg); }
