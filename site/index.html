@@ -75,8 +75,8 @@
       <p class="hero-thesis hero-load hl-3">I build AI systems that <em>learn from experience</em>.</p>
       <p class="hero-sub hero-load hl-4">
         Co-founder &amp; CTO of <a href="#now">Greenshoe</a>. Previously at AWS AI&nbsp;Labs, where I
-        post-trained Amazon Titan models and worked on the memory and RAG systems behind Amazon
-        Bedrock. PhD in computer science from the University of Pennsylvania.
+        trained Amazon Titan models and worked on the memory and RAG systems behind Amazon Bedrock
+        and Amazon Bedrock AgentCore. PhD in computer science from the University of Pennsylvania.
       </p>
       <ul class="hero-links hero-load hl-5">
         <li><a href="mailto:yi@greenshoe.ai">Email</a></li>
@@ -113,29 +113,31 @@
     <section id="research" class="entry reveal">
       <div class="entry-stamp"><span class="stamp-node"></span>research</div>
       <div class="entry-body">
-        <h2>One question: how does an AI system improve after training ends?</h2>
+        <h2>One question: how does an AI system make the most of its experience, its compute, and its data?</h2>
         <p class="section-lede">
           My research spans post-training, inference, and the data systems underneath &mdash;
-          three angles on making models better with every interaction.
+          three angles on the same goal: systems that keep getting better.
         </p>
         <div class="pillars">
           <article class="pillar">
             <h3><span class="pillar-key">post-training</span>Learning from experience</h3>
             <p>
-              Training language models and agents with reinforcement learning and memory so they
-              improve over time &mdash; RLHF for grounded generation, and agents that accumulate,
-              consolidate, and reuse experience across interactions.
+              Turning the knowledge, experience, and reflections an agent accumulates in memory
+              into training signal &mdash; reinforcement learning that makes models and agents
+              improve continually, from RLHF for grounded generation to agents that learn from
+              their own past interactions.
             </p>
-            <p class="pillar-refs">Amazon Titan post-training &middot; Bedrock AgentCore Memory</p>
+            <p class="pillar-refs">Amazon Titan &middot; Bedrock AgentCore Memory</p>
           </article>
           <article class="pillar">
-            <h3><span class="pillar-key">test-time scaling</span>Reasoning &amp; planning</h3>
+            <h3><span class="pillar-key">test-time scaling</span>Finding the optimal plan</h3>
             <p>
-              Spending inference-time compute where it counts: planning test-time compute across
-              multi-agent systems, reusing prior reasoning through logs, and decomposing complex
-              tasks into executable plans.
+              Treating planning as an optimization problem: searching the space of plans under a
+              compute budget &mdash; branch-and-bound over task decompositions, test-time compute
+              allocated across collaborating agents, and prior reasoning reused so the search
+              starts ahead.
             </p>
-            <p class="pillar-refs">FutureWeaver, COLM 2026 &middot; Log-Augmented Generation, ICLR 2026</p>
+            <p class="pillar-refs">Optimizable LLM Planning &middot; FutureWeaver, COLM 2026 &middot; Log-Augmented Generation, ICLR 2026</p>
           </article>
           <article class="pillar">
             <h3><span class="pillar-key">retrieval &amp; data</span>Retrieval with reasoning</h3>
@@ -168,7 +170,7 @@
             <div class="tl-what">
               <h3>AWS AI Labs <span class="tl-role">senior applied scientist</span></h3>
               <ul class="tl-points">
-                <li>Led post-training of Amazon Titan foundation models for RAG &mdash; SFT and RLHF for query and grounded response generation.</li>
+                <li>Led training of Amazon Titan foundation models for RAG &mdash; SFT and RLHF for query and grounded response generation.</li>
                 <li>Built advanced RAG for Amazon Bedrock Knowledge Bases: query rewriting, decomposition, and planning for complex information-seeking tasks.</li>
                 <li>Pioneered agent memory at AWS &mdash; early work behind Amazon Bedrock AgentCore Memory, letting agents learn from past interactions.</li>
               </ul>
